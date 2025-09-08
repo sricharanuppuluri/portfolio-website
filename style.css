@@ -1,0 +1,59 @@
+body{
+    background-color: #FCAA67;
+    color: #473335;
+}
+
+.d-block{
+    height: 500px;
+    margin-left: 20px;
+}
+
+.features{
+    background-color: #FFFFC7;
+    color: #473335;
+    flex: 1 1 0;
+}
+
+.flex1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.hi1{
+    text-align: left;
+}
+
+.hel1{
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.hel{
+    padding-top: 20px;
+}
+
+.fea{
+    display: flex;
+    gap: 10px;
+     padding-top: 20px;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media(max-width:990px) and (min-width:300px){
+    .fea{
+        display: flex;
+        flex-wrap:wrap ;
+        flex-direction: column;
+    }
+}
+
+.card{
+    background-color: #FFFFC7;
+}
